@@ -1,0 +1,10 @@
+import java.util.*;
+import javax.swing.*;
+
+public class ex21 {
+    public static void main(String[] args) {
+      Scanner sc =new Scanner(System.in);
+      char inp=sc.nextInt();
+      System.out.print(inp);
+    }
+}

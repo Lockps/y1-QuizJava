@@ -1,0 +1,10 @@
+import javax.swing.JOptionPane;
+import java.util.Scanner;
+
+public class quiz2{
+  public static void main(String[] args){
+    JOptionPane box = new JOptionPane(System.in);
+    float inp = Float.parseFloat(box.showInputDialog("Enter the slide : "));
+    System.out.print(inp);
+  }
+}
