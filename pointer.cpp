@@ -1,28 +1,15 @@
 #include<stdio.h>
+#include<stdlib.h>
+
+struct waylink
+{
+    struct waylink *first;    
+    int data;
+    struct waylink *sec;    
+}a;
 
 int main(int argc, char const *argv[])
 {
-    int a[10], *p;
-    p = a ;
-    for (int i = 0; i < 10; i++)
-    {
-        *p = i+1;
-        *p++;
-    }
-
-    p = a ;
-
-    for (size_t i = 0; i < 10; i++)
-    {
-        printf(" a = %d\n",*p++);
-    }
-
-    for (size_t i = 0; i < 10; i++)
-    {
-        printf("%d\n",a[i]);
-    }
-    
-    
     
     return 0;
 }
